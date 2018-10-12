@@ -8,28 +8,36 @@
 <html>
 	<head>
 		<title>Yingli Sieh - About Me</title>
-		<!-- Bootstrap, jQuery scripts -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!-- Stylesheets and Viewport -->
+		<!-- Bootstrap, Style, Font scripts -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="container-fluid">
 			<!-- This container holds the header information, nav bar -->
         	<div class="container">
-        		<!-- Name and text under name -->
+            	<!-- Name and text under name -->
             	<div class="logo">
                 	<h1><a href="index.html">Yingli Sieh</a></h1>
                 	<h5>Researcher | Designer | Innovator</h5>
             	</div>
             	<!-- Navigation bar -->
-	            <div class="nav">
-	                <ul>
+            	<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      					<a>
+        				<i class="fa fa-bars toggle" aria-hidden="true"></i>
+        			</a>
+      				</button>
+    			</div>
+	            <div class="collapse navbar-collapse" id="myNavbar">
+	                <ul class='nav navbar-nav'>
 	                    <li><a href="index.html">Work</a></li>
 	                    <li><a href="about.html">About</a></li>
 	                    <li><a href="resume.pdf">Resume</a></li>
@@ -48,9 +56,9 @@
 	        				<!-- Information about myself -->
 		        			<h2>Hi, I'm Yingli!</h2>
 		        			<h4>I'm a junior at Carnegie Mellon University studying Cognitive Science and Human-Computer Interaction.</h4>
-		        			<p>My interests include game design, front-end work, educational technology, and both experimental and usability research. I love using data and research to understand the motivations behind design principles and implementing said principles in my own prototypes and work.</p>
-		        			<p>In my personal life, I am a avid gamer, photographer, and traveler. Check out the map below to see where I've traveled, and click here to see pictures from my summer abroad at University College London.</p>
-		        			<h4>I'm currently looking for internships for Summer 2018!</h4>
+		        			<p>My interests include game design, educational technology, and user experience research. I love using data and research to understand the motivations behind design principles and implementing said principles in my own designs and prototypes.</p>
+		        			<!-- <p>In my personal life, I am a avid gamer, photographer, and traveler. Check out the map below to see where I've traveled, and click here to see pictures from my summer abroad at University College London.</p> -->
+		        			<h4>I'm currently looking for an internship for Summer 2018!</h4>
 		        			<!-- Links to contact me externally -->
 		        			<div id="about-me-links">
 		        				<p><a href="mailto:yingli.sieh@gmail.com" target="_top">Message me</a></p>
@@ -72,6 +80,22 @@
         			<div class="col-sm-3"></div>
         		</div>
         	</div>
+
+        	<div class="container" id="footer">
+		<!-- FOOTER -->
+			<!-- Sorted info -->
+		
+			<!-- Github, LinkedIn, Medium -->
+			<div class="links">
+				<a href="https://github.com/ysieh">GitHub</a>
+				<a>    //    </a>
+				<a href="https://www.linkedin.com/in/yingli-sieh-009448124/">LinkedIn</a>
+				<a>    //    </a>
+				<a href="https://medium.com/@ysieh">Medium</a>
+			</div>
+			<!-- Copyright information -->
+			<div class="copyright">© Designed and Developed by Yingli Sieh, 2018. </div>
+			</div>
         </div>
 
 		<!-- Javascript and APIs -->

@@ -14,33 +14,39 @@ $(document).ready(function() {
     // Create panels that toggle out when the overlays are clicked
     // Needed unique overlays and panels, otherwise all panels would appear when only overlay was clicked
     // Uses sliding toggle on the panel
-	$(".overlay-1").click(function(){
-        $("#panel-1").slideToggle("slow");
-        console.log("clicked");
+	$(".foliawater-overlay").click(function(){
+        window.location.href="work-foliawater.html";
     });
 
-    $(".overlay-2").click(function(){
-        $("#panel-2").slideToggle("slow");
-        console.log("clicked");
+    $(".pdp-overlay").click(function(){
+        window.location.href="work-pdp.html";
     });
 
-    $(".overlay-3").click(function(){
-        $("#panel-3").slideToggle("slow");
-        console.log("clicked");
+    $(".twitchgives-overlay").click(function(){
+        window.location.href="work-twitchgives.html";
     });
 
-    $(".overlay-4").click(function(){
-        $("#panel-4").slideToggle("slow");
-        console.log("clicked");
+    $(".commdesign-overlay").click(function(){
+        window.location.href="work-commdesign.html";
     });
 
-    $(".overlay-5").click(function(){
-        $("#panel-5").slideToggle("slow");
-        console.log("clicked");
+    $(".ra-ca-overlay").click(function(){
+        window.location.href="work-ra.html";
     });
 
-    $(".overlay-6").click(function(){
-        $("#panel-6").slideToggle("slow");
-        console.log("clicked");
+    $(".sustain-overlay").click(function(){
+        window.location.href="work-sustain.html";
+    });
+
+    $(".ddd-ditf-overlay").click(function(){
+        window.location.href="work-ddd-ditf.html";
+    });
+
+    $(".behrmann-overlay").click(function(){
+        window.location.href="work-behrmann.html";
+    });
+
+    $(".bakewiz-overlay").click(function(){
+        window.location.href="work-bakewiz.html";
     });
 });

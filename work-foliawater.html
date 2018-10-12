@@ -1,68 +1,102 @@
 <!--
  * Yingli Sieh, Portfolio
- * work-foliawater.html
- * Work detail page about Folia Water
+ * index.html
+ * Home page, displays my work with brief descriptions, leads to more info and other pages
 -->
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Yingli Sieh - Folia Water</title>
+<head>
+	<title>Yingli Sieh</title>
+	<!-- Bootstrap, Style, Font scripts -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
+</head>
 
-		<!-- Bootstrap, jQuery scripts -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<!-- Stylesheets and Viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-	</head>
-
-	<body>
-		<div class="container-fluid">
-			<!-- This container holds the header information, nav bar -->
-        	<div class="container">
-        		<!-- Name and text under name -->
-            	<div class="logo">
-                	<h1><a href="index.html">Yingli Sieh</a></h1>
-                	<h5>Researcher | Designer | Innovator</h5>
-            	</div>
-            	<!-- Navigation bar -->
-	            <div class="nav">
-	                <ul>
-	                    <li><a href="index.html">Work</a></li>
-	                    <li><a href="about.html">About</a></li>
-	                    <li><a href="resume.pdf">Resume</a></li>
-	                </ul>
-	            </div>
+<body>
+	<!-- Container fluid contains all of the page content-->
+	<div class="container-fluid">
+		<!-- This container holds the header information, nav bar -->
+    	<div class="container">
+        	<!-- Name and text under name -->
+        	<div class="logo">
+            	<h1><a href="index.html">Yingli Sieh</a></h1>
+            	<h5>Researcher | Designer | Innovator</h5>
         	</div>
-        	<!-- Bootstrap used to form a column for photo, and a column for informative text-->
-        	<div class="row">
-        		<div class="col-sm-1"></div>
-        		<div class="col-sm-6">
-        			<img src="images/workslides-01.png"><!-- image from the previous Work tab -->
-        		</div>	
-        		<!-- Textual information, on the right of the page -->
-        		<div class="col-sm-4">
-        			<h2>Folia Water</h2>
-        			<h4>Overview</h4>
-        			<p>I worked at Folia Water as their Microbiological Lab Associate, managing the lab materials and creating new protocols to match World Health Organization guidelines, as well as running tests against the current model of Folia Filters to ensure effectiveness of the product.</p>
-	        		<h4>Duration</h4>
-	        		<p>6 months, Aug 2016 - Dec 2016</p>
-	        		<h4>Deliverables</h4>
-	        		<p>Lab protocols and standards, efficiency of paper against non-viral E. Coli</p>
-	        		<h4>Skills Gained</h4>
-	        		<p>Lab management, research writing, microbiological techniques</p>
-	        	</div>
-        		<div class="col-sm-1"></div>
-        	</div>
-        </div>
+        	<!-- Navigation bar -->
+        	<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  					<a>
+    				<i class="fa fa-bars toggle" aria-hidden="true"></i>
+    			</a>
+  				</button>
+			</div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class='nav navbar-nav'>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.pdf">Resume</a></li>
+                </ul>
+            </div>
+    	</div>
+		<!-- Two columns of work detail slides : Column 1-->
+		<!-- Bootstrap framework used -->
+    	<div class="container" id="work-info">
 
-		<!-- Javascript, JQuery, Bootstrap -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-	</body>
+    		<div class="row"><div class="col-sm-3"></div>
+    		<div class="col-sm-6">
+	    		<div class="work-header">
+	    			<h2>Folia Water | Product Research</h2>
+	    			<br>
+	    			<h5><b>Supervisors:</b> Teri Dankovich, Cantwell Carson   //    <b>Duration:</b> Aug 2016 - Dec 2016</h5>
+	    			<h5><b>Contribution:</b> Microbiological Research, Experiment Design, Protocol Development and Writing</h5>
+	    			<br>
+	    		</div>
+	    		<div class="work-text">
+	    			<h4><b>"How effective are Folia Filters at removing particulate matter from unsafe drinking water?"</b></h4>
+	    			<p>During my sophomore fall semester, I worked in Folia Water's science department. I focused on microbiological testing of the Folia Filters product, a silver-based filter paper that serves as a cheap water filtration solution for those in need. </p>
+	    			<hr>
+	    			<h4>Product Testing and Research</h4>
+	    			<p>My role as microbiological lab associate involved growing bacterial cultures of non-pathogenic E. coli, treating water with said cultures to create sample 'infected' influent water, and then running the 'infected' water through the Folia Filters. The effluent water collected through the filter were then analyzed for further bacterial growth, to give an indication of the percentage of surviving bacteria post-filtration.</p>
+	    			<br>
+	    			<h4>Lab Management</h4>
+	    			<p>As the primary lab associate, I managed the usage of scientific tools and equipment. Any new projects or protocols were developed and recorded by myself, and then shared with Folia Water for future usage and improvement.</p>
+	    			<br>
+	    			<img src="images/foliawater.jpg">
+	    			
+	    		</div>
+	    	</div>
+	    	<div class="col-sm-3"></div>
+
+
+    	</div>
+
+		<div class="container" id="footer">
+		<!-- FOOTER -->
+			<!-- Sorted info -->
+		
+			<!-- Github, LinkedIn, Medium -->
+			<div class="links">
+				<a href="https://github.com/ysieh">GitHub</a>
+				<a>    //    </a>
+				<a href="https://www.linkedin.com/in/yingli-sieh-009448124/">LinkedIn</a>
+				<a>    //    </a>
+				<a href="https://medium.com/@ysieh">Medium</a>
+			</div>
+			<!-- Copyright information -->
+			<div class="copyright">© Designed and Developed by Yingli Sieh, 2018. </div>
+		</div>
+	</div>
+	<!-- Javascript, JQuery, Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
