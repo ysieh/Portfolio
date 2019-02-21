@@ -1,71 +1,114 @@
 <!--
  * Yingli Sieh, Portfolio
- * work-gamedesign.html
- * Work detail page about Game Design
+ * index.html
+ * Home page, displays my work with brief descriptions, leads to more info and other pages
 -->
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Yingli Sieh - Twitch Gives</title>
+<head>
+	<title>Yingli Sieh</title>
+	<!-- Bootstrap, Style, Font scripts -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
+</head>
 
-		<!-- Bootstrap, jQuery scripts -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<!-- Stylesheets and Viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-	</head>
-
-	<body>
-		<div class="container-fluid">
-			<!-- This container holds the header information, nav bar -->
-        	<div class="container">
-        		<!-- Name and text under name -->
-            	<div class="logo">
-                	<h1><a href="index.html">Yingli Sieh</a></h1>
-                	<h5>Researcher | Designer | Innovator</h5>
-            	</div>
-            	<!-- Navigation bar -->
-	            <div class="nav">
-	                <ul>
-	                    <li><a href="index.html">Work</a></li>
-	                    <li><a href="about.html">About</a></li>
-	                    <li><a href="resume.pdf">Resume</a></li>
-	                </ul>
-	            </div>
+<body>
+	<!-- Container fluid contains all of the page content-->
+	<div class="container-fluid">
+		<!-- This container holds the header information, nav bar -->
+    	<div class="container">
+        	<!-- Name and text under name -->
+        	<div class="logo">
+            	<h1><a href="index.html">Yingli Sieh</a></h1>
+            	<h5>Researcher | Designer | Innovator</h5>
         	</div>
-        	<!-- Bootstrap used to form a column for photo, and a column for informative text-->
-        	<div class="home-text">
-        		<!-- <h1>Some information about me! Welcome to my site!</h1> -->
-        	</div>
+        	<!-- Navigation bar -->
+        	<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  					<a>
+    				<i class="fa fa-bars toggle" aria-hidden="true"></i>
+    			</a>
+  				</button>
+			</div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class='nav navbar-nav'>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.pdf">Resume</a></li>
+                </ul>
+            </div>
+    	</div>
+		<!-- Two columns of work detail slides : Column 1-->
+		<!-- Bootstrap framework used -->
+    	<div class="container" id="work-info">
 
-        	<div class="row">
-        		<div class="col-sm-1"></div>
-        		<div class="col-sm-6">
-        			<img src="images/workslides-03.png"> <!-- image from the previous Work tab -->
-        		</div>	
-        		<!-- Textual information, on the right of the page -->
-        		<div class="col-sm-4">
-        			<h2>Game Design and Prototyping</h2>
-        			<h4>Overview</h4>
-        			<p>A team of four, including myself, are developing a Twitch Extension to support the dissemination of data from philanthropic streams and charity donations to the average viewer. My role in this project has been in the design of the features and overall appearance of the Extension, which functions as an overlay on top of a streaming video. The design has gone through paper and digitial prototyping, and I have conducted a series of playtests and usability testing for the product.</p>
-	        		<h4>Duration</h4>
-	        		<p>2 months, Oct 2017 - Current</p>
-	        		<h4>Deliverables</h4>
-	        		<p>Prototypes of overlay design, playtest reports and prototype evaluations, Twitch Extension</p>
-	        		<h4>Skills Gained</h4>
-	        		<p>Playtesting, rapid prototyping (digital and physical), pitching ideas, Twitch streaming</p>
-	        	</div>
-        		<div class="col-sm-1"></div>
-        	</div>
-        </div>
-		<!-- Javascript, JQuery, Bootstrap -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-	</body>
+    		<div class="row"><div class="col-sm-3"></div>
+    		<div class="col-sm-6">
+	    		<div class="work-header">
+	    			<h2>Twitch Gives</h2>
+	    			<br>
+	    			<h5><b>Duration:</b> Oct 2017 - Dec 2017</h5>
+	    			<h5><b>Role:</b> UI/UX Design, Project Management</h5>
+	    			<h5><b>Course, professor:</b> Computing for the Crowd and Cloud, Jessica Hammer</h5>
+	    			<br>
+	    		</div>
+	    		<div class="work-text">
+	    			<h4><b>The challenge: "How can Twitch streamers maximize the response from their viewers on philanthropic fundraising streams?"</b></h4>
+	    			<p>Twitch Gives is a web extension supported by the Twitch platform to support the dissemination of data from philanthropic streams and charity donations to the average viewer. This includes ranking information, like 'top donors', as well as time specific information like progress towards the current goal and time remaining on-stream. My role as UX designer was to determine the value provided to the viewer through features and overall appearance of the web extension, and to design these features as an interactive overlay to the streamed video itself. Playtests and usability testing were core to development, and prototyping began in low-fidelity paper iterations all the way to a mock web-app of the product that currently exists on Twitch's platform. </p>
+	    			<!-- <video width="320" height="240" controls>
+					  <source src="video-demo.mp4" type="video/mp4">
+					</video> -->
+	    			<!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" "https://www.youtube.com/watch?v=Icxxzhmu-fE"></iframe> -->
+	    			<hr>
+	    			<h4>Rapid Prototyping and Design</h4>
+	    			<p>For this project we made a paper prototype, a high fidelity prototype (made interactive through the use of InVision), and a web-app which is essentially a functional digital prototype of the Twitch Extension. In general, the designs we had were based off responses from the MHCI Extra Life stream and from watching existing charity streams and observing what features they include for their viewers.</p>
+	    			<p>We designed 3 stages of playtesting based on our low-fi prototype, mid-fi prototype, and high-fi prototypes. Below is an example of our high-fi prototype and our streamer configuration within the app itself - for further information, resources, and images regarding prototyping and playtesting, please contact me.</p>
+	    			<img src="images/gamedesign.png">
+	    			<hr>
+	    			<h4>Project Management</h4>
+	    			<p>Our team of 5 members allowed us to divide the project by skills; we had two developlers, two researchers, and I served as the project manager as well as the UI/UX designer. I coordinated task management and general communication standards via Slack and derived bi-weekly goals for team members. Team meetings and deliverables were organized by myself, and regular check-ins with individuals who needed more guidance or support, especially development, were added into the project timeline when needed.</p>
+	    			
+	    			<br>
+	    			
+	    			<img src="images/gamedesign-streamer.png">
+
+
+	    		</div>
+	    	</div>
+	    	<div class="col-sm-3"></div>
+
+
+    	</div>
+
+		<div class="container" id="footer">
+		<!-- FOOTER -->
+			<!-- Sorted info -->
+		
+			<!-- Github, LinkedIn, Medium -->
+			<div class="links">
+				<a href="https://github.com/ysieh">GitHub</a>
+				<a>    //    </a>
+				<a href="https://www.linkedin.com/in/yingli-sieh-009448124/">LinkedIn</a>
+				<a>    //    </a>
+				<a href="https://medium.com/@ysieh">Medium</a>
+			</div>
+			<!-- Copyright information -->
+			<div class="copyright">© Designed and Developed by Yingli Sieh, 2019. </div>
+		</div>
+	</div>
+	<!-- Javascript, JQuery, Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
+
+

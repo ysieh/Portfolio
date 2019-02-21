@@ -19,11 +19,11 @@ $(document).ready(function() {
     });
 
     $(".pdp-overlay").click(function(){
-        window.location.href="work-pdp.html";
+        window.location.href="work-twitchgives.html";
     });
 
     $(".twitchgives-overlay").click(function(){
-        window.location.href="work-twitchgives.html";
+        window.location.href="work-sustain.html";
     });
 
     $(".commdesign-overlay").click(function(){
