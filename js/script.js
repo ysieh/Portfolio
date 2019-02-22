@@ -35,7 +35,7 @@ $(document).ready(function() {
     });
 
     $(".sustain-overlay").click(function(){
-        window.location.href="work-sustain.html";
+        window.location.href="https://drive.google.com/drive/u/1/folders/19Nbr1eTANLyqo1IqP016U3n07FnSMXDX";
     });
 
     $(".ddd-ditf-overlay").click(function(){
