@@ -7,7 +7,7 @@
 
 /***** General behavior for all text and content, if not assigned later *****/
 .container-fluid {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Futura PT', serif;
 	width: 100%;
 	top: 0;
 	position: static;
@@ -41,7 +41,7 @@ li {
 
 /*Font for all text, get rid of all text-decoration*/
 a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Futura PT', serif;
 	text-decoration: none;
 	color: black;
 }
@@ -206,7 +206,7 @@ img {
 }
 
 .work-text{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Futura PT', sans-serif;
 	letter-spacing: 0.0185em;
 	line-height: 2em;
 	display: block;
