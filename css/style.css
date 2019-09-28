@@ -9,7 +9,7 @@
 
 /***** General behavior for all text and content, if not assigned later *****/
 .container-fluid {
-	font-family: 'Futura PT', serif;
+	font-family: 'futura-pt', serif;
 	width: 100%;
 	top: 0;
 	position: static;
@@ -43,7 +43,7 @@ li {
 
 /*Font for all text, get rid of all text-decoration*/
 a {
-	font-family: 'Futura PT', serif;
+	font-family: 'futura-pt', serif;
 	text-decoration: none;
 	color: black;
 }
@@ -208,7 +208,7 @@ img {
 }
 
 .work-text{
-	font-family: 'Futura PT', sans-serif;
+	font-family: 'futura-pt', sans-serif;
 	letter-spacing: 0.0185em;
 	line-height: 2em;
 	display: block;
