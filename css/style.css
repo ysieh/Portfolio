@@ -5,6 +5,8 @@
  * Style for all pages of my digital portfolio
  */
 
+@import url("https://use.typekit.net/hqu4onf.css");
+
 /***** General behavior for all text and content, if not assigned later *****/
 .container-fluid {
 	font-family: 'Futura PT', serif;
