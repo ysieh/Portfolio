@@ -56,6 +56,8 @@ img {
 	width: 100%;
 	float: both;
 	border: none;
+	padding-top: 25px; 
+	padding-bottom: 25px;
 }
 
 /***** Formatting and responsive design for cols/rows formed via bootstrap *****/
